@@ -1,0 +1,27 @@
+.card_container{
+  width: 100%;
+  height:max-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card_container .card{
+  width:200px;
+  height:250px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card_container .card .user_info{
+  margin:1rem 0;
+  text-transform: capitalize;
+}
+.card_container .card .delete_btn{
+  background-color: red;
+  padding:10px 15px;
+  border-radius:5px;
+  color: white;
+  cursor: pointer;
+}
